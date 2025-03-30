@@ -697,27 +697,6 @@
       "title": "ESV_Bible.txt",
       "paragraphs": [
         {
-          "context": "The use of\nthese different ways to translate the Hebrew words\nfor God is especially beneficial to the English\nreader, enabling the reader to see and understand\nthe different ways that the personal name and the\ngeneral name for God are both used to refer to the\nOne True God of the Old Testament. Second, in the New Testament, the Greek word\nChristos has been translated consistently as\n\u201cChrist.\u201d",
-          "qas": [
-            {
-              "id": "q33",
-              "question": "What is the name of the Greek word Christos?",
-              "answers": [
-                {
-                  "text": "Christ",
-                  "answer_start": 387
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "ESV_Bible.txt",
-      "paragraphs": [
-        {
           "context": "Although the term originally meant\n\u201canointed,\u201d among Jews in New Testament times the\nterm came to designate the Messiah, the great\nSavior that God had promised to raise up. In other\nNew Testament contexts, however, especially\namong Gentiles, Christos (\u201cChrist\u201d) was on its way to\nbecoming a proper name. It is important, therefore,\nto keep the context in mind in understanding the\nvarious ways that Christos (\u201cChrist\u201d) is used in the\nNew Testament.",
           "qas": [
             {
@@ -1453,27 +1432,6 @@
       "title": "ESV_Bible.txt",
       "paragraphs": [
         {
-          "context": "8And the LORD\nGod planted a garden in Eden, in the east, and there\nhe put the man whom he had formed. 9And out of the\nground the LORD God made to spring up every tree\nthat is pleasant to the sight and good for food. The\ntree of life was in the midst of the garden, and the\ntree of the knowledge of good and evil. 10A river flowed out of Eden to water the garden, and\nthere it divided and became four rivers. 11The name\nof the first is the Pishon.",
-          "qas": [
-            {
-              "id": "q69",
-              "question": "What is the name of the first river that flowed out of Eden?",
-              "answers": [
-                {
-                  "text": "Pishon",
-                  "answer_start": 439
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "ESV_Bible.txt",
-      "paragraphs": [
-        {
           "context": "It is the one that flowed\naround the whole land of Havilah, where there is\ngold. 12And the gold of that land is good; bdellium\nand onyx stone are there. 13The name of the second\nriver is the Gihon. It is the one that flowed around the\nwhole land of Cush. 14And the name of the third river\nis the Tigris, which flows east of Assyria. And the\nfourth river is the Euphrates. 15The LORD God took the man and put him in the\ngarden of Eden to work it and keep it.",
           "qas": [
             {
@@ -1777,27 +1735,6 @@
                 {
                   "text": "his wife",
                   "answer_start": 36
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "ESV_Bible.txt",
-      "paragraphs": [
-        {
-          "context": "And\nthe LORD had regard for Abel and his offering, 5but\nfor Cain and his offering he had no regard. So Cain\nwas very angry, and his face fell. 6The LORD said to\nCain, \u201cWhy are you angry, and why has your face\nfallen? 7If you do well, will you not be accepted?[26] And if you do not do well, sin is crouching at the\ndoor. Its desire is for[27] you, but you must rule over\nit.\u201d 8Cain spoke to Abel his brother.[28] And when they\nwere in the field, Cain rose up against his brother\nAbel and killed him.",
-          "qas": [
-            {
-              "id": "q85",
-              "question": "What did Cain do to Abel?",
-              "answers": [
-                {
-                  "text": "killed him",
-                  "answer_start": 488
                 }
               ],
               "is_impossible": false
@@ -2734,27 +2671,6 @@
       "title": "ESV_Bible.txt",
       "paragraphs": [
         {
-          "context": "6And the LORD said,\n\u201cBehold, they are one people, and they have all one\nlanguage, and this is only the beginning of what they\nwill do. And nothing that they propose to do will now\nbe impossible for them. 7Come, let us go down and\nthere confuse their language, so that they may not\nunderstand one another's speech.\u201d 8So the LORD\ndispersed them from there over the face of all the\nearth, and they left off building the city.",
-          "qas": [
-            {
-              "id": "q130",
-              "question": "What did the LORD dispersed them from there over the face of all the earth?",
-              "answers": [
-                {
-                  "text": "the city",
-                  "answer_start": 413
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "ESV_Bible.txt",
-      "paragraphs": [
-        {
           "context": "9Therefore its\nname was called Babel, because there the LORD\nconfused[54] the language of all the earth. And from\nthere the LORD dispersed them over the face of all\nthe earth. Shem's Descendants\n10These are the generations of Shem. When Shem\nwas 100 years old, he fathered Arpachshad two\nyears after the flood. 11And Shem lived after he\nfathered Arpachshad 500 years and had other sons\nand daughters. 12When Arpachshad had lived 35 years, he fathered\nShelah. 13And",
           "qas": [
             {
@@ -3079,27 +2995,6 @@
                 {
                   "text": "\u201cLift up your eyes and look from the place\nwhere you are",
                   "answer_start": 60
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "ESV_Bible.txt",
-      "paragraphs": [
-        {
-          "context": "Abram moved his tent and came and\nsettled by the oaks[59] of Mamre, which are at\nHebron, and there he built an altar to the LORD. Abram Rescues Lot\n14:1 In the days of Amraphel king of Shinar, Arioch\nking of Ellasar, Chedorlaomer king of Elam, and\nTidal king of Goiim, 2these kings made war with\nBera king of Sodom, Birsha king of Gomorrah,\nShinab king of Admah, Shemeber king of Zeboiim,\nand the king of Bela (that is, Zoar).",
-          "qas": [
-            {
-              "id": "q147",
-              "question": "Who was the king of Bela?",
-              "answers": [
-                {
-                  "text": "Zoar",
-                  "answer_start": 420
                 }
               ],
               "is_impossible": false
@@ -3982,27 +3877,6 @@
                 {
                   "text": "him\nand his wife and his two daughters",
                   "answer_start": 18
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "ESV_Bible.txt",
-      "paragraphs": [
-        {
-          "context": "But I cannot\nescape to the hills, lest the disaster overtake me and\nI die. 20Behold, this city is near enough to flee to, and\nit is a little one. Let me escape there\u2014is it not a little\none?\u2014and my life will be saved!\u201d 21He said to him,\n\u201cBehold, I grant you this favor also, that I will not\noverthrow the city of which you have spoken. 22Escape there quickly, for I can do nothing till you\np\nq\ny,\ng\ny\narrive there.\u201d Therefore the name of the city was\ncalled Zoar.[85]",
-          "qas": [
-            {
-              "id": "q190",
-              "question": "What is the name of the city that the writer is a snarl?",
-              "answers": [
-                {
-                  "text": "Zoar",
-                  "answer_start": 457
                 }
               ],
               "is_impossible": false
@@ -6145,27 +6019,6 @@
                 {
                   "text": "35And",
                   "answer_start": 339
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "ESV_Bible.txt",
-      "paragraphs": [
-        {
-          "context": "30:1 When Rachel saw that she bore Jacob no\nchildren, she envied her sister. She said to Jacob,\n\u201cGive me children, or I shall die!\u201d 2Jacob's anger was\nkindled against Rachel, and he said, \u201cAm I in the\nplace of God, who has withheld from you the fruit of\nthe womb?\u201d 3Then she said, \u201cHere is my servant\nBilhah; go in to her, so that she may give birth on my\nbehalf,[131] that even I may have children[132] through\nher.\u201d 4So she gave him her servant Bilhah as a wife,\nand Jacob went in to her.",
-          "qas": [
-            {
-              "id": "q293",
-              "question": "What did Jacob do to Jacob?",
-              "answers": [
-                {
-                  "text": "went in to her",
-                  "answer_start": 475
                 }
               ],
               "is_impossible": false
@@ -8677,27 +8530,6 @@
       "title": "ESV_Bible.txt",
       "paragraphs": [
         {
-          "context": "52The name of the second he\ncalled Ephraim, \u201cFor God has made me fruitful in the\nland of my affliction. \u201d[187]\n53The seven years of plenty that occurred in the land\nof Egypt came to an end, 54and the seven years of\nfamine began to come, as Joseph had said. There\nwas famine in all lands, but in all the land of Egypt\nthere was bread. 55When all the land of Egypt was\nfamished, the people cried to Pharaoh for bread. Pharaoh said to all the Egyptians, \u201cGo to Joseph.",
-          "qas": [
-            {
-              "id": "q413",
-              "question": "What did Joseph say to all the Egyptians?",
-              "answers": [
-                {
-                  "text": "Go to Joseph",
-                  "answer_start": 452
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "ESV_Bible.txt",
-      "paragraphs": [
-        {
           "context": "What he says to you, do.\u201d\n56So when the famine had spread over all the land,\nJoseph opened all the storehouses[188] and sold to\nthe Egyptians, for the famine was severe in the land\nof Egypt. 57Moreover, all the earth came to Egypt to\nJoseph to buy grain, because the famine was severe\nover all the earth. Joseph's Brothers Go to Egypt\n42:1 When Jacob learned that there was grain for\nsale in Egypt, he said to his sons, \u201cWhy do you look\nat one another?\u201d",
           "qas": [
             {
@@ -10525,27 +10357,6 @@
       "title": "akjv.txt",
       "paragraphs": [
         {
-          "context": "Genesis 1 \nAKJV [Online] \nThe Creation \n(John 1:1\u20135; Hebrews 11:1\u20133) \n1\n\u202fIn the beginning God created the heaven and the earth. 2 And the earth was without form, and void; \nand darkness was on the face of the deep. And the Spirit of God moved on the face of the waters. The First Day \n3 And God said, Let there be light: and there was light. 4 And God saw the light, that it was good: and \nGod divided the light from the darkness. 5\n\u202fAnd God called the light Day, and the darkness he called \nNight.",
-          "qas": [
-            {
-              "id": "q501",
-              "question": "What is the name of the day that God called the light Day?",
-              "answers": [
-                {
-                  "text": "Night",
-                  "answer_start": 492
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "akjv.txt",
-      "paragraphs": [
-        {
           "context": "And the evening and the morning were the first day. The Second Day \n6 And God said, Let there be a firmament in the middle of the waters, and let it divide the waters from \nthe waters. 7\n\u202fAnd God made the firmament, and divided the waters which were under the firmament \nfrom the waters which were above the firmament: and it was so. 8 And God called the firmament \nHeaven. And the evening and the morning were the second day. The Third Day \n9",
           "qas": [
             {
@@ -10912,27 +10723,6 @@
                 {
                   "text": "God has said, You shall not eat of it",
                   "answer_start": 71
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "akjv.txt",
-      "paragraphs": [
-        {
-          "context": "And when the woman saw that the tree was good for food, and that it was pleasant to the \neyes, and a tree to be desired to make one wise, she took of the fruit thereof, and did eat, and gave \nalso to her husband with her; and he did eat. 7 And the eyes of them both were opened, and they knew \nthat they were naked; and they sewed fig leaves together, and made themselves aprons. God Arraigns Adam and Eve \n8",
-          "qas": [
-            {
-              "id": "q520",
-              "question": "What is the name of the woman who saw that the tree was good for food?",
-              "answers": [
-                {
-                  "text": "Adam and Eve",
-                  "answer_start": 393
                 }
               ],
               "is_impossible": false
@@ -12730,27 +12520,6 @@
       "title": "akjv.txt",
       "paragraphs": [
         {
-          "context": "And they returned, and came to Enmishpat, which is Kadesh, and \nsmote all the country of the Amalekites, and also the Amorites, that dwelled in Hazezontamar. 8",
-          "qas": [
-            {
-              "id": "q606",
-              "question": "How many people were there in the village?",
-              "answers": [
-                {
-                  "text": "8",
-                  "answer_start": 158
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "akjv.txt",
-      "paragraphs": [
-        {
           "context": "And \nthere went out the king of Sodom, and the king of Gomorrah, and the king of Admah, and the king of \nZeboiim, and the king of Bela (the same is Zoar;) and they joined battle with them in the vale of Siddim; \n9\n\u202fWith Chedorlaomer the king of Elam, and with Tidal king of nations, and Amraphel king of Shinar, and \nArioch king of Ellasar; four kings with five.",
           "qas": [
             {
@@ -12991,27 +12760,6 @@
                 {
                   "text": "Know of a surety",
                   "answer_start": 22
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "akjv.txt",
-      "paragraphs": [
-        {
-          "context": "And it came to pass, that, when the sun went down, and it was dark, behold a smoking furnace, and \na burning lamp that passed between those pieces. 18",
-          "qas": [
-            {
-              "id": "q619",
-              "question": "How many pieces of wood did the burning furnace have?",
-              "answers": [
-                {
-                  "text": "18",
-                  "answer_start": 148
                 }
               ],
               "is_impossible": false
@@ -13696,27 +13444,6 @@
       "title": "akjv.txt",
       "paragraphs": [
         {
-          "context": "And it came \nto pass, when they had brought them forth abroad, that he said, Escape for your life; look not behind \nyou, neither stay you in all the plain; escape to the mountain, lest you be consumed. 18",
-          "qas": [
-            {
-              "id": "q652",
-              "question": "How many days did the king have to return to the mountain?",
-              "answers": [
-                {
-                  "text": "18",
-                  "answer_start": 202
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "akjv.txt",
-      "paragraphs": [
-        {
           "context": "And Lot said to \nthem, Oh, not so, my LORD: 19\n\u202fBehold now, your servant has found grace in your sight, and you have \nmagnified your mercy, which you have showed to me in saving my life; and I cannot escape to the \nmountain, lest some evil take me, and I die: 20\n\u202fBehold now, this city is near to flee to, and it is a little \none: Oh, let me escape thither, (is it not a little one?) and my soul shall live. 21",
           "qas": [
             {
@@ -13726,27 +13453,6 @@
                 {
                   "text": "my LORD: 19\n\u202fBehold now",
                   "answer_start": 35
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "akjv.txt",
-      "paragraphs": [
-        {
-          "context": "And he said to him, \nSee, I have accepted you concerning this thing also, that I will not overthrow this city, for the which \nyou have spoken. 22\n\u202fHaste you, escape thither; for I cannot do anything till you be come thither. Therefore the name of the city was called Zoar. 23 The sun was risen on the earth when Lot entered into Zoar.",
-          "qas": [
-            {
-              "id": "q654",
-              "question": "What did Lot enter into?",
-              "answers": [
-                {
-                  "text": "Zoar",
-                  "answer_start": 329
                 }
               ],
               "is_impossible": false
@@ -14083,27 +13789,6 @@
                 {
                   "text": "What ails you",
                   "answer_start": 315
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "akjv.txt",
-      "paragraphs": [
-        {
-          "context": "And God opened her eyes, and \nshe saw a well of water; and she went, and filled the bottle with water, and gave the lad drink. 20 And God was with the lad; and he grew, and dwelled in the wilderness, and became an archer. 21 And \nhe dwelled in the wilderness of Paran: and his mother took him a wife out of the land of Egypt. The Covenant at Beersheba \n22",
-          "qas": [
-            {
-              "id": "q671",
-              "question": "What is the name of the place where the Covenant is located?",
-              "answers": [
-                {
-                  "text": "Beersheba",
-                  "answer_start": 342
                 }
               ],
               "is_impossible": false
@@ -14767,27 +14452,6 @@
       "title": "akjv.txt",
       "paragraphs": [
         {
-          "context": "And the LORD has blessed \nmy master greatly; and he is become great: and he has given him flocks, and herds, and silver, and \ngold, and menservants, and maidservants, and camels, and asses. 36 And Sarah my master\u2019s wife bore \na son to my master when she was old: and to him has he given all that he has. 37 And my master made \nme swear, saying, You shall not take a wife to my son of the daughters of the Canaanites, in whose \nland I dwell: 38",
-          "qas": [
-            {
-              "id": "q703",
-              "question": "How many of the Canaanites dwell in the land I dwell?",
-              "answers": [
-                {
-                  "text": "38",
-                  "answer_start": 441
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "akjv.txt",
-      "paragraphs": [
-        {
           "context": "But you shall go to my father\u2019s house, and to my kindred, and take a wife to my son. 39 And I said to my master, Peradventure the woman will not follow me. 40 And he said to me, The \nLORD, before whom I walk, will send his angel with you, and prosper your way; and you shall take a \nwife for my son of my kindred, and of my father\u2019s house: 41\n\u202fThen shall you be clear from this my oath, \nwhen you come to my kindred; and if they give not you one, you shall be clear from my oath. 42",
           "qas": [
             {
@@ -14902,27 +14566,6 @@
                 {
                   "text": "jewels of silver",
                   "answer_start": 30
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "akjv.txt",
-      "paragraphs": [
-        {
-          "context": "And he said to \nthem, Hinder me not, seeing the LORD has prospered my way; send me away that I may go to my \nmaster. 57 And they said, We will call the damsel, and inquire at her mouth. 58 And they called Rebekah, \nand said to her, Will you go with this man? And she said, I will go. 59 And they sent away Rebekah their \nsister, and her nurse, and Abraham\u2019s servant, and his men. 60",
-          "qas": [
-            {
-              "id": "q710",
-              "question": "How many people were there?",
-              "answers": [
-                {
-                  "text": "60",
-                  "answer_start": 380
                 }
               ],
               "is_impossible": false
@@ -15112,27 +14755,6 @@
                 {
                   "text": "Abraham",
                   "answer_start": 55
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "akjv.txt",
-      "paragraphs": [
-        {
-          "context": "And the LORD said to her, Two nations are in your womb, and two manner of people shall be \nseparated from your bowels; and the one people shall be stronger than the other people; and the elder \nshall serve the younger. 24 And when her days to be delivered were fulfilled, behold, there were twins in her womb. 25\n\u202fAnd the \nfirst came out red, all over like an hairy garment; and they called his name Esau. 26",
-          "qas": [
-            {
-              "id": "q720",
-              "question": "What did the first come out red, all over like an hairy garment?",
-              "answers": [
-                {
-                  "text": "Esau",
-                  "answer_start": 400
                 }
               ],
               "is_impossible": false
@@ -17380,27 +17002,6 @@
                 {
                   "text": "hid them",
                   "answer_start": 131
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "akjv.txt",
-      "paragraphs": [
-        {
-          "context": "And he built there an altar, and called the place \nElbethel: because there God appeared to him, when he fled from the face of his brother. 8 But Deborah \nRebekah\u2019s nurse died, and she was buried beneath Bethel under an oak: and the name of it was called \nAllonbachuth. 9 And God appeared to Jacob again, when he came out of Padanaram, and blessed him. 10",
-          "qas": [
-            {
-              "id": "q828",
-              "question": "What did Jacob do to Jacob?",
-              "answers": [
-                {
-                  "text": "blessed him",
-                  "answer_start": 339
                 }
               ],
               "is_impossible": false
@@ -20227,27 +19828,6 @@
       "title": "akjv.txt",
       "paragraphs": [
         {
-          "context": "And they brought their cattle to Joseph: and Joseph gave them bread in \nexchange for horses, and for the flocks, and for the cattle of the herds, and for the asses: and he fed \nthem with bread for all their cattle for that year. 18",
-          "qas": [
-            {
-              "id": "q963",
-              "question": "How many cattle did Joseph give to Joseph?",
-              "answers": [
-                {
-                  "text": "18",
-                  "answer_start": 229
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "akjv.txt",
-      "paragraphs": [
-        {
           "context": "When that year was ended, they came to him the \nsecond year, and said to him, We will not hide it from my lord, how that our money is spent; my lord \nalso has our herds of cattle; there is not ought left in the sight of my lord, but our bodies, and our \nlands: 19\n\u202fWhy shall we die before your eyes, both we and our land? buy us and our land for bread, and \nwe and our land will be servants to Pharaoh: and give us seed, that we may live, and not die, that the \nland be not desolate. 20",
           "qas": [
             {
@@ -21013,27 +20593,6 @@
                 {
                   "text": "Exodus",
                   "answer_start": 50
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "web.txt",
-      "paragraphs": [
-        {
-          "context": "Genesis 1 \nWEB  [Online] \nThe Creation \n(John 1:1\u20135; Hebrews 11:1\u20133) 1\n\u202fIn the beginning God created the heavens and the earth. 2\n\u202fNow the earth was formless and empty. Darkness was on the surface of the deep. God\u2019s Spirit was hovering over the surface of the waters. The First Day \n3\n\u202fGod said, \u201cLet there be light,\u201d and there was light. 4\n\u202fGod saw the light, and saw that it was good. God \ndivided the light from the darkness. 5\n\u202fGod called the light \u201cday,\u201d and the darkness he called \u201cnight.\u201d",
-          "qas": [
-            {
-              "id": "q1001",
-              "question": "What is the name of the day that God called the light?",
-              "answers": [
-                {
-                  "text": "night",
-                  "answer_start": 488
                 }
               ],
               "is_impossible": false
@@ -21958,27 +21517,6 @@
                 {
                   "text": "I",
                   "answer_start": 177
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "web.txt",
-      "paragraphs": [
-        {
-          "context": "20\n\u202fOf \nthe birds after their kind, of the livestock after their kind, of every creeping thing of the ground after \nits kind, two of every sort shall come to you, to keep them alive. 21\n\u202fTake with you of all food that is \neaten, and gather it to yourself; and it will be for food for you, and for them.\u201d 22 Thus Noah did. According to all that God commanded him, so he did.",
-          "qas": [
-            {
-              "id": "q1046",
-              "question": "What did Noah do?",
-              "answers": [
-                {
-                  "text": "he did.",
-                  "answer_start": 366
                 }
               ],
               "is_impossible": false
@@ -23281,27 +22819,6 @@
                 {
                   "text": "a smoking furnace",
                   "answer_start": 178
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "web.txt",
-      "paragraphs": [
-        {
-          "context": "18\n\u202fIn that day Yahweh made a covenant with Abram, saying, \u201cTo your seed I have given this land, from \nthe river of Egypt to the great river, the river Euphrates:  \n19\n\u202fthe Kenites, the Kenizzites, the Kadmonites, 20\n\u202fthe Hittites, the Perizzites, the Rephaim, 21\n\u202fthe \nAmorites, the Canaanites, the Girgashites, and the Jebusites.\u201d Genesis 16 \nWEB  [Online] \nHagar and Ishmael \n1\n\u202fNow Sarai, Abram\u2019s wife, bore him no children. She had a handmaid, an Egyptian, whose name was \nHagar.",
-          "qas": [
-            {
-              "id": "q1109",
-              "question": "What is the name of the handmaid?",
-              "answers": [
-                {
-                  "text": "Hagar",
-                  "answer_start": 478
                 }
               ],
               "is_impossible": false
@@ -27787,27 +27304,6 @@
       "title": "web.txt",
       "paragraphs": [
         {
-          "context": "They said one to another, \u201cBehold, this dreamer comes. 20\n\u202fCome now therefore, and let\u2019s kill him, \nand cast him into one of the pits, and we will say, \u2018An evil animal has devoured him.\u2019 We will see what \nwill become of his dreams.\u201d 21\n\u202fReuben heard it, and delivered him out of their hand, and said, \u201cLet\u2019s \nnot take his life.\u201d 22\n\u202fReuben said to them, \u201cShed no blood.",
-          "qas": [
-            {
-              "id": "q1323",
-              "question": "What did Reuben say to them?",
-              "answers": [
-                {
-                  "text": "\u201cShed no blood",
-                  "answer_start": 354
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "web.txt",
-      "paragraphs": [
-        {
           "context": "Throw him into this pit that is in the \nwilderness, but lay no hand on him\u201d\u2014that he might deliver him out of their hand, to restore him to his \nfather. 23\n\u202fIt happened, when Joseph came to his brothers, that they stripped Joseph of his coat, the \ncoat of many colors that was on him; 24\n\u202fand they took him, and threw him into the pit. The pit was \nempty. There was no water in it.",
           "qas": [
             {
@@ -29560,27 +29056,6 @@
                 {
                   "text": "servants",
                   "answer_start": 248
-                }
-              ],
-              "is_impossible": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "web.txt",
-      "paragraphs": [
-        {
-          "context": "Load your \nanimals, and go, travel to the land of Canaan. 18\n\u202fTake your father and your households, and come to \nme, and I will give you the good of the land of Egypt, and you will eat the fat of the land.\u2019 19\n\u202fNow you \nare commanded: do this. Take wagons out of the land of Egypt for your little ones, and for your wives, \nand bring your father, and come. 20\n\u202fAlso, don\u2019t concern yourselves about your belongings, for the good \nof all of the land of Egypt is yours.\u201d 21 The sons of Israel did so.",
-          "qas": [
-            {
-              "id": "q1408",
-              "question": "What does the sons of Israel do?",
-              "answers": [
-                {
-                  "text": "so",
-                  "answer_start": 494
                 }
               ],
               "is_impossible": false

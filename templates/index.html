@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QA Demo</title>
+    <style>
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 2rem;
+            color: #333;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 2rem 2.5rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            text-align: center;
+            color: #4a90e2;
+        }
+        label {
+            font-weight: 600;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        input[type="submit"] {
+            background-color: #4a90e2;
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #357ab7;
+        }
+        .result {
+            margin-top: 2rem;
+        }
+        .result h3, .result h4 {
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+        .context {
+            background-color: #f2f2f2;
+            padding: 1rem;
+            border-radius: 5px;
+            font-size: 0.95rem;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>📖 Biblical Question Answering</h2>
+        <form method="post">
+            <label for="question">Enter your question:</label>
+            <input type="text" id="question" name="question" required>
+            <input type="submit" value="Submit">
+        </form>
+
+        {% if answer %}
+        <div class="result">
+            <h3>✅ Answer:</h3>
+            <p>{{ answer }}</p>
+
+            <h4>📚 Retrieved Context:</h4>
+            <div class="context">{{ context }}</div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,831 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "fitz",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fitz",
+        "description": "fitz",
+        "detail": "fitz",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "spacy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "spacy",
+        "description": "spacy",
+        "detail": "spacy",
+        "documentation": {}
+    },
+    {
+        "label": "pipeline",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoModelForQuestionAnswering",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoModelForQuestionAnswering",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "TrainingArguments",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "Trainer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoModelForQuestionAnswering",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoModelForQuestionAnswering",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoModelForQuestionAnswering",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "AutoTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "load_dataset",
+        "importPath": "datasets",
+        "description": "datasets",
+        "isExtraImport": true,
+        "detail": "datasets",
+        "documentation": {}
+    },
+    {
+        "label": "Dataset",
+        "importPath": "datasets",
+        "description": "datasets",
+        "isExtraImport": true,
+        "detail": "datasets",
+        "documentation": {}
+    },
+    {
+        "label": "load_dataset",
+        "importPath": "datasets",
+        "description": "datasets",
+        "isExtraImport": true,
+        "detail": "datasets",
+        "documentation": {}
+    },
+    {
+        "label": "Dataset",
+        "importPath": "datasets",
+        "description": "datasets",
+        "isExtraImport": true,
+        "detail": "datasets",
+        "documentation": {}
+    },
+    {
+        "label": "faiss",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "faiss",
+        "description": "faiss",
+        "detail": "faiss",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "load",
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "isExtraImport": true,
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "qa_with_auto_context",
+        "importPath": "scripts.qa_retrieval",
+        "description": "scripts.qa_retrieval",
+        "isExtraImport": true,
+        "detail": "scripts.qa_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "textwrap",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "textwrap",
+        "description": "textwrap",
+        "detail": "textwrap",
+        "documentation": {}
+    },
+    {
+        "label": "input_folder",
+        "kind": 5,
+        "importPath": "scripts.01_extract_pdfs",
+        "description": "scripts.01_extract_pdfs",
+        "peekOfCode": "input_folder = \"data/pdfs\"\noutput_folder = \"data/raw\"\nos.makedirs(output_folder, exist_ok=True)\nfor fname in os.listdir(input_folder):\n    if fname.endswith(\".pdf\"):\n        path = os.path.join(input_folder, fname)\n        out_path = os.path.join(output_folder, fname.replace(\".pdf\", \".txt\"))\n        with fitz.open(path) as doc:\n            text = \"\"\n            for page in doc:",
+        "detail": "scripts.01_extract_pdfs",
+        "documentation": {}
+    },
+    {
+        "label": "output_folder",
+        "kind": 5,
+        "importPath": "scripts.01_extract_pdfs",
+        "description": "scripts.01_extract_pdfs",
+        "peekOfCode": "output_folder = \"data/raw\"\nos.makedirs(output_folder, exist_ok=True)\nfor fname in os.listdir(input_folder):\n    if fname.endswith(\".pdf\"):\n        path = os.path.join(input_folder, fname)\n        out_path = os.path.join(output_folder, fname.replace(\".pdf\", \".txt\"))\n        with fitz.open(path) as doc:\n            text = \"\"\n            for page in doc:\n                text += page.get_text()",
+        "detail": "scripts.01_extract_pdfs",
+        "documentation": {}
+    },
+    {
+        "label": "generate_question_t5",
+        "kind": 2,
+        "importPath": "scripts.02_generate_qa",
+        "description": "scripts.02_generate_qa",
+        "peekOfCode": "def generate_question_t5(text_chunk):\n    prompt = f\"Generate a question from the following passage:\\n\\n{text_chunk.strip()}\"\n    try:\n        response = qgen_pipeline(prompt, max_new_tokens=64, do_sample=False)[0][\"generated_text\"]\n        return response.strip()\n    except Exception as e:\n        print(\"⚠️ Failed to generate question:\", e)\n        return None\n# ===== 构建 SQuAD 格式记录 =====\ndef build_squad_record(context, question, answer_dict, idx):",
+        "detail": "scripts.02_generate_qa",
+        "documentation": {}
+    },
+    {
+        "label": "build_squad_record",
+        "kind": 2,
+        "importPath": "scripts.02_generate_qa",
+        "description": "scripts.02_generate_qa",
+        "peekOfCode": "def build_squad_record(context, question, answer_dict, idx):\n    answer_text = answer_dict['answer']\n    start_idx = answer_dict['start']\n    if not answer_text or start_idx == -1:\n        print(\"⚠️ Answer not found in context.\")\n        return None\n    return {\n        \"context\": context,\n        \"qas\": [{\n            \"id\": f\"q{idx}\",",
+        "detail": "scripts.02_generate_qa",
+        "documentation": {}
+    },
+    {
+        "label": "INPUT_FOLDER",
+        "kind": 5,
+        "importPath": "scripts.02_generate_qa",
+        "description": "scripts.02_generate_qa",
+        "peekOfCode": "INPUT_FOLDER = \"data/raw\"\nOUTPUT_FILE = \"data/squad/train.json\"\nQUESTION_GEN_MODEL = \"google/flan-t5-small\"\nANSWER_MODEL = \"distilbert-base-cased-distilled-squad\"\n# ===== 加载 SpaCy 分句器 =====\nnlp = spacy.load(\"en_core_web_sm\")\nnlp.max_length = 10_000_000\n# ===== 加载问答模型（用于提取答案）=====\nprint(\"Loading QA model...\")\nqa_pipeline = pipeline(\"question-answering\", model=ANSWER_MODEL, tokenizer=ANSWER_MODEL, device=-1)",
+        "detail": "scripts.02_generate_qa",
+        "documentation": {}
+    },
+    {
+        "label": "OUTPUT_FILE",
+        "kind": 5,
+        "importPath": "scripts.02_generate_qa",
+        "description": "scripts.02_generate_qa",
+        "peekOfCode": "OUTPUT_FILE = \"data/squad/train.json\"\nQUESTION_GEN_MODEL = \"google/flan-t5-small\"\nANSWER_MODEL = \"distilbert-base-cased-distilled-squad\"\n# ===== 加载 SpaCy 分句器 =====\nnlp = spacy.load(\"en_core_web_sm\")\nnlp.max_length = 10_000_000\n# ===== 加载问答模型（用于提取答案）=====\nprint(\"Loading QA model...\")\nqa_pipeline = pipeline(\"question-answering\", model=ANSWER_MODEL, tokenizer=ANSWER_MODEL, device=-1)\n# ===== 加载提问模型 =====",
+        "detail": "scripts.02_generate_qa",
+        "documentation": {}
+    },
+    {
+        "label": "QUESTION_GEN_MODEL",
+        "kind": 5,
+        "importPath": "scripts.02_generate_qa",
+        "description": "scripts.02_generate_qa",
+        "peekOfCode": "QUESTION_GEN_MODEL = \"google/flan-t5-small\"\nANSWER_MODEL = \"distilbert-base-cased-distilled-squad\"\n# ===== 加载 SpaCy 分句器 =====\nnlp = spacy.load(\"en_core_web_sm\")\nnlp.max_length = 10_000_000\n# ===== 加载问答模型（用于提取答案）=====\nprint(\"Loading QA model...\")\nqa_pipeline = pipeline(\"question-answering\", model=ANSWER_MODEL, tokenizer=ANSWER_MODEL, device=-1)\n# ===== 加载提问模型 =====\nprint(\"Loading question generation model...\")",
+        "detail": "scripts.02_generate_qa",
+        "documentation": {}
+    },
+    {
+        "label": "ANSWER_MODEL",
+        "kind": 5,
+        "importPath": "scripts.02_generate_qa",
+        "description": "scripts.02_generate_qa",
+        "peekOfCode": "ANSWER_MODEL = \"distilbert-base-cased-distilled-squad\"\n# ===== 加载 SpaCy 分句器 =====\nnlp = spacy.load(\"en_core_web_sm\")\nnlp.max_length = 10_000_000\n# ===== 加载问答模型（用于提取答案）=====\nprint(\"Loading QA model...\")\nqa_pipeline = pipeline(\"question-answering\", model=ANSWER_MODEL, tokenizer=ANSWER_MODEL, device=-1)\n# ===== 加载提问模型 =====\nprint(\"Loading question generation model...\")\nqgen_pipeline = pipeline(\"text2text-generation\", model=QUESTION_GEN_MODEL, tokenizer=QUESTION_GEN_MODEL, device=-1)",
+        "detail": "scripts.02_generate_qa",
+        "documentation": {}
+    },
+    {
+        "label": "nlp",
+        "kind": 5,
+        "importPath": "scripts.02_generate_qa",
+        "description": "scripts.02_generate_qa",
+        "peekOfCode": "nlp = spacy.load(\"en_core_web_sm\")\nnlp.max_length = 10_000_000\n# ===== 加载问答模型（用于提取答案）=====\nprint(\"Loading QA model...\")\nqa_pipeline = pipeline(\"question-answering\", model=ANSWER_MODEL, tokenizer=ANSWER_MODEL, device=-1)\n# ===== 加载提问模型 =====\nprint(\"Loading question generation model...\")\nqgen_pipeline = pipeline(\"text2text-generation\", model=QUESTION_GEN_MODEL, tokenizer=QUESTION_GEN_MODEL, device=-1)\n# ===== 初始化数据结构 =====\ndata = {\"data\": []}",
+        "detail": "scripts.02_generate_qa",
+        "documentation": {}
+    },
+    {
+        "label": "nlp.max_length",
+        "kind": 5,
+        "importPath": "scripts.02_generate_qa",
+        "description": "scripts.02_generate_qa",
+        "peekOfCode": "nlp.max_length = 10_000_000\n# ===== 加载问答模型（用于提取答案）=====\nprint(\"Loading QA model...\")\nqa_pipeline = pipeline(\"question-answering\", model=ANSWER_MODEL, tokenizer=ANSWER_MODEL, device=-1)\n# ===== 加载提问模型 =====\nprint(\"Loading question generation model...\")\nqgen_pipeline = pipeline(\"text2text-generation\", model=QUESTION_GEN_MODEL, tokenizer=QUESTION_GEN_MODEL, device=-1)\n# ===== 初始化数据结构 =====\ndata = {\"data\": []}\n# ===== 生成问题的函数（用 T5）=====",
+        "detail": "scripts.02_generate_qa",
+        "documentation": {}
+    },
+    {
+        "label": "qa_pipeline",
+        "kind": 5,
+        "importPath": "scripts.02_generate_qa",
+        "description": "scripts.02_generate_qa",
+        "peekOfCode": "qa_pipeline = pipeline(\"question-answering\", model=ANSWER_MODEL, tokenizer=ANSWER_MODEL, device=-1)\n# ===== 加载提问模型 =====\nprint(\"Loading question generation model...\")\nqgen_pipeline = pipeline(\"text2text-generation\", model=QUESTION_GEN_MODEL, tokenizer=QUESTION_GEN_MODEL, device=-1)\n# ===== 初始化数据结构 =====\ndata = {\"data\": []}\n# ===== 生成问题的函数（用 T5）=====\ndef generate_question_t5(text_chunk):\n    prompt = f\"Generate a question from the following passage:\\n\\n{text_chunk.strip()}\"\n    try:",
+        "detail": "scripts.02_generate_qa",
+        "documentation": {}
+    },
+    {
+        "label": "qgen_pipeline",
+        "kind": 5,
+        "importPath": "scripts.02_generate_qa",
+        "description": "scripts.02_generate_qa",
+        "peekOfCode": "qgen_pipeline = pipeline(\"text2text-generation\", model=QUESTION_GEN_MODEL, tokenizer=QUESTION_GEN_MODEL, device=-1)\n# ===== 初始化数据结构 =====\ndata = {\"data\": []}\n# ===== 生成问题的函数（用 T5）=====\ndef generate_question_t5(text_chunk):\n    prompt = f\"Generate a question from the following passage:\\n\\n{text_chunk.strip()}\"\n    try:\n        response = qgen_pipeline(prompt, max_new_tokens=64, do_sample=False)[0][\"generated_text\"]\n        return response.strip()\n    except Exception as e:",
+        "detail": "scripts.02_generate_qa",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "scripts.02_generate_qa",
+        "description": "scripts.02_generate_qa",
+        "peekOfCode": "data = {\"data\": []}\n# ===== 生成问题的函数（用 T5）=====\ndef generate_question_t5(text_chunk):\n    prompt = f\"Generate a question from the following passage:\\n\\n{text_chunk.strip()}\"\n    try:\n        response = qgen_pipeline(prompt, max_new_tokens=64, do_sample=False)[0][\"generated_text\"]\n        return response.strip()\n    except Exception as e:\n        print(\"⚠️ Failed to generate question:\", e)\n        return None",
+        "detail": "scripts.02_generate_qa",
+        "documentation": {}
+    },
+    {
+        "label": "idx",
+        "kind": 5,
+        "importPath": "scripts.02_generate_qa",
+        "description": "scripts.02_generate_qa",
+        "peekOfCode": "idx = 0\nfor fname in os.listdir(INPUT_FOLDER):\n    if fname.endswith(\".txt\"):\n        with open(os.path.join(INPUT_FOLDER, fname), \"r\", encoding=\"utf-8\") as f:\n            text = f.read()\n            doc = nlp(text)\n            sentences = [sent.text.strip() for sent in doc.sents if len(sent.text.strip()) > 0]\n            chunks, current = [], \"\"\n            for sent in sentences:\n                if len(current) + len(sent) < 500:",
+        "detail": "scripts.02_generate_qa",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_ANSWER_TOKENS",
+        "kind": 5,
+        "importPath": "scripts.03_clean_data",
+        "description": "scripts.03_clean_data",
+        "peekOfCode": "MAX_ANSWER_TOKENS = 30\ntokenizer = AutoTokenizer.from_pretrained(\"distilbert-base-cased-distilled-squad\")\nwith open(\"data/squad/train.json\", \"r\", encoding=\"utf-8\") as f:\n    data = json.load(f)\ncleaned_data = {\"data\": []}\nkept_count = 0\nskipped_count = 0\nfor item in data[\"data\"]:\n    title = item[\"title\"]\n    cleaned_paragraphs = []",
+        "detail": "scripts.03_clean_data",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "scripts.03_clean_data",
+        "description": "scripts.03_clean_data",
+        "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(\"distilbert-base-cased-distilled-squad\")\nwith open(\"data/squad/train.json\", \"r\", encoding=\"utf-8\") as f:\n    data = json.load(f)\ncleaned_data = {\"data\": []}\nkept_count = 0\nskipped_count = 0\nfor item in data[\"data\"]:\n    title = item[\"title\"]\n    cleaned_paragraphs = []\n    for para in item[\"paragraphs\"]:",
+        "detail": "scripts.03_clean_data",
+        "documentation": {}
+    },
+    {
+        "label": "cleaned_data",
+        "kind": 5,
+        "importPath": "scripts.03_clean_data",
+        "description": "scripts.03_clean_data",
+        "peekOfCode": "cleaned_data = {\"data\": []}\nkept_count = 0\nskipped_count = 0\nfor item in data[\"data\"]:\n    title = item[\"title\"]\n    cleaned_paragraphs = []\n    for para in item[\"paragraphs\"]:\n        context = para[\"context\"]\n        qas = []\n        for qa in para[\"qas\"]:",
+        "detail": "scripts.03_clean_data",
+        "documentation": {}
+    },
+    {
+        "label": "kept_count",
+        "kind": 5,
+        "importPath": "scripts.03_clean_data",
+        "description": "scripts.03_clean_data",
+        "peekOfCode": "kept_count = 0\nskipped_count = 0\nfor item in data[\"data\"]:\n    title = item[\"title\"]\n    cleaned_paragraphs = []\n    for para in item[\"paragraphs\"]:\n        context = para[\"context\"]\n        qas = []\n        for qa in para[\"qas\"]:\n            answer_text = qa[\"answers\"][0][\"text\"]",
+        "detail": "scripts.03_clean_data",
+        "documentation": {}
+    },
+    {
+        "label": "skipped_count",
+        "kind": 5,
+        "importPath": "scripts.03_clean_data",
+        "description": "scripts.03_clean_data",
+        "peekOfCode": "skipped_count = 0\nfor item in data[\"data\"]:\n    title = item[\"title\"]\n    cleaned_paragraphs = []\n    for para in item[\"paragraphs\"]:\n        context = para[\"context\"]\n        qas = []\n        for qa in para[\"qas\"]:\n            answer_text = qa[\"answers\"][0][\"text\"]\n            answer_start = qa[\"answers\"][0][\"answer_start\"]",
+        "detail": "scripts.03_clean_data",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess",
+        "kind": 2,
+        "importPath": "scripts.04_finetune",
+        "description": "scripts.04_finetune",
+        "peekOfCode": "def preprocess(example):\n    tokenized = tokenizer(\n        example[\"question\"],\n        example[\"context\"],\n        max_length=384,\n        truncation=\"only_second\",  # 保证截断发生在 context 部分\n        padding=\"max_length\",\n        return_offsets_mapping=True\n    )\n    start_char = example[\"answer_start\"]",
+        "detail": "scripts.04_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"CUDA_VISIBLE_DEVICES\"]",
+        "kind": 5,
+        "importPath": "scripts.04_finetune",
+        "description": "scripts.04_finetune",
+        "peekOfCode": "os.environ[\"CUDA_VISIBLE_DEVICES\"] = \"\"\n# ===== 配置模型和 tokenizer =====\nmodel_name = \"distilbert-base-cased-distilled-squad\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForQuestionAnswering.from_pretrained(model_name)\n# ===== 加载清洗好的 SQuAD 格式数据 =====\ndataset = load_dataset(\"json\", data_files={\"train\": \"data/squad/clean_train.json\"}, field=\"data\")\n# ===== 扁平化成单个样本格式 =====\nsamples = []\nfor item in dataset[\"train\"]:",
+        "detail": "scripts.04_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "model_name",
+        "kind": 5,
+        "importPath": "scripts.04_finetune",
+        "description": "scripts.04_finetune",
+        "peekOfCode": "model_name = \"distilbert-base-cased-distilled-squad\"\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForQuestionAnswering.from_pretrained(model_name)\n# ===== 加载清洗好的 SQuAD 格式数据 =====\ndataset = load_dataset(\"json\", data_files={\"train\": \"data/squad/clean_train.json\"}, field=\"data\")\n# ===== 扁平化成单个样本格式 =====\nsamples = []\nfor item in dataset[\"train\"]:\n    for paragraph in item[\"paragraphs\"]:\n        context = paragraph[\"context\"]",
+        "detail": "scripts.04_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "scripts.04_finetune",
+        "description": "scripts.04_finetune",
+        "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(model_name)\nmodel = AutoModelForQuestionAnswering.from_pretrained(model_name)\n# ===== 加载清洗好的 SQuAD 格式数据 =====\ndataset = load_dataset(\"json\", data_files={\"train\": \"data/squad/clean_train.json\"}, field=\"data\")\n# ===== 扁平化成单个样本格式 =====\nsamples = []\nfor item in dataset[\"train\"]:\n    for paragraph in item[\"paragraphs\"]:\n        context = paragraph[\"context\"]\n        for qa in paragraph[\"qas\"]:",
+        "detail": "scripts.04_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "scripts.04_finetune",
+        "description": "scripts.04_finetune",
+        "peekOfCode": "model = AutoModelForQuestionAnswering.from_pretrained(model_name)\n# ===== 加载清洗好的 SQuAD 格式数据 =====\ndataset = load_dataset(\"json\", data_files={\"train\": \"data/squad/clean_train.json\"}, field=\"data\")\n# ===== 扁平化成单个样本格式 =====\nsamples = []\nfor item in dataset[\"train\"]:\n    for paragraph in item[\"paragraphs\"]:\n        context = paragraph[\"context\"]\n        for qa in paragraph[\"qas\"]:\n            question = qa[\"question\"]",
+        "detail": "scripts.04_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "dataset",
+        "kind": 5,
+        "importPath": "scripts.04_finetune",
+        "description": "scripts.04_finetune",
+        "peekOfCode": "dataset = load_dataset(\"json\", data_files={\"train\": \"data/squad/clean_train.json\"}, field=\"data\")\n# ===== 扁平化成单个样本格式 =====\nsamples = []\nfor item in dataset[\"train\"]:\n    for paragraph in item[\"paragraphs\"]:\n        context = paragraph[\"context\"]\n        for qa in paragraph[\"qas\"]:\n            question = qa[\"question\"]\n            answer = qa[\"answers\"][0]\n            answer_text = answer[\"text\"]",
+        "detail": "scripts.04_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "samples",
+        "kind": 5,
+        "importPath": "scripts.04_finetune",
+        "description": "scripts.04_finetune",
+        "peekOfCode": "samples = []\nfor item in dataset[\"train\"]:\n    for paragraph in item[\"paragraphs\"]:\n        context = paragraph[\"context\"]\n        for qa in paragraph[\"qas\"]:\n            question = qa[\"question\"]\n            answer = qa[\"answers\"][0]\n            answer_text = answer[\"text\"]\n            answer_start = answer[\"answer_start\"]\n            if context[answer_start:answer_start + len(answer_text)] != answer_text:",
+        "detail": "scripts.04_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "dataset",
+        "kind": 5,
+        "importPath": "scripts.04_finetune",
+        "description": "scripts.04_finetune",
+        "peekOfCode": "dataset = Dataset.from_list(samples)\n# ===== 划分训练集和验证集 =====\nsplit_dataset = dataset.train_test_split(test_size=0.1)\ntrain_dataset = split_dataset[\"train\"]\neval_dataset = split_dataset[\"test\"]\n# ===== 预处理函数：构建 token 级别的 answer span =====\ndef preprocess(example):\n    tokenized = tokenizer(\n        example[\"question\"],\n        example[\"context\"],",
+        "detail": "scripts.04_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "split_dataset",
+        "kind": 5,
+        "importPath": "scripts.04_finetune",
+        "description": "scripts.04_finetune",
+        "peekOfCode": "split_dataset = dataset.train_test_split(test_size=0.1)\ntrain_dataset = split_dataset[\"train\"]\neval_dataset = split_dataset[\"test\"]\n# ===== 预处理函数：构建 token 级别的 answer span =====\ndef preprocess(example):\n    tokenized = tokenizer(\n        example[\"question\"],\n        example[\"context\"],\n        max_length=384,\n        truncation=\"only_second\",  # 保证截断发生在 context 部分",
+        "detail": "scripts.04_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "train_dataset",
+        "kind": 5,
+        "importPath": "scripts.04_finetune",
+        "description": "scripts.04_finetune",
+        "peekOfCode": "train_dataset = split_dataset[\"train\"]\neval_dataset = split_dataset[\"test\"]\n# ===== 预处理函数：构建 token 级别的 answer span =====\ndef preprocess(example):\n    tokenized = tokenizer(\n        example[\"question\"],\n        example[\"context\"],\n        max_length=384,\n        truncation=\"only_second\",  # 保证截断发生在 context 部分\n        padding=\"max_length\",",
+        "detail": "scripts.04_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "eval_dataset",
+        "kind": 5,
+        "importPath": "scripts.04_finetune",
+        "description": "scripts.04_finetune",
+        "peekOfCode": "eval_dataset = split_dataset[\"test\"]\n# ===== 预处理函数：构建 token 级别的 answer span =====\ndef preprocess(example):\n    tokenized = tokenizer(\n        example[\"question\"],\n        example[\"context\"],\n        max_length=384,\n        truncation=\"only_second\",  # 保证截断发生在 context 部分\n        padding=\"max_length\",\n        return_offsets_mapping=True",
+        "detail": "scripts.04_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "train_tokenized",
+        "kind": 5,
+        "importPath": "scripts.04_finetune",
+        "description": "scripts.04_finetune",
+        "peekOfCode": "train_tokenized = train_dataset.map(preprocess, remove_columns=train_dataset.column_names)\neval_tokenized = eval_dataset.map(preprocess, remove_columns=eval_dataset.column_names)\n# ===== 设置训练参数 =====\ntraining_args = TrainingArguments(\n    output_dir=\"models/distilbert-qa\",\n    evaluation_strategy=\"epoch\",\n    save_strategy=\"epoch\",\n    logging_dir=\"logs\",\n    logging_steps=50,\n    num_train_epochs=4,",
+        "detail": "scripts.04_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "eval_tokenized",
+        "kind": 5,
+        "importPath": "scripts.04_finetune",
+        "description": "scripts.04_finetune",
+        "peekOfCode": "eval_tokenized = eval_dataset.map(preprocess, remove_columns=eval_dataset.column_names)\n# ===== 设置训练参数 =====\ntraining_args = TrainingArguments(\n    output_dir=\"models/distilbert-qa\",\n    evaluation_strategy=\"epoch\",\n    save_strategy=\"epoch\",\n    logging_dir=\"logs\",\n    logging_steps=50,\n    num_train_epochs=4,\n    per_device_train_batch_size=8,",
+        "detail": "scripts.04_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "training_args",
+        "kind": 5,
+        "importPath": "scripts.04_finetune",
+        "description": "scripts.04_finetune",
+        "peekOfCode": "training_args = TrainingArguments(\n    output_dir=\"models/distilbert-qa\",\n    evaluation_strategy=\"epoch\",\n    save_strategy=\"epoch\",\n    logging_dir=\"logs\",\n    logging_steps=50,\n    num_train_epochs=4,\n    per_device_train_batch_size=8,\n    save_total_limit=1,\n    load_best_model_at_end=True,",
+        "detail": "scripts.04_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "trainer",
+        "kind": 5,
+        "importPath": "scripts.04_finetune",
+        "description": "scripts.04_finetune",
+        "peekOfCode": "trainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=train_tokenized,\n    eval_dataset=eval_tokenized,\n    tokenizer=tokenizer\n)\n# ===== 开始训练 =====\nprint(\"🚀 开始 fine-tune...\")\ntrainer.train()",
+        "detail": "scripts.04_finetune",
+        "documentation": {}
+    },
+    {
+        "label": "encoder",
+        "kind": 5,
+        "importPath": "scripts.prepare_embeddings",
+        "description": "scripts.prepare_embeddings",
+        "peekOfCode": "encoder = SentenceTransformer(\"all-MiniLM-L6-v2\")\n# 加载你的训练数据\nwith open(\"data/squad/clean_train.json\", \"r\") as f:\n    data = json.load(f)\ncontexts = []\nfor item in data[\"data\"]:\n    for para in item[\"paragraphs\"]:\n        context = para[\"context\"]\n        contexts.append(context)\n# 编码所有 context",
+        "detail": "scripts.prepare_embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "contexts",
+        "kind": 5,
+        "importPath": "scripts.prepare_embeddings",
+        "description": "scripts.prepare_embeddings",
+        "peekOfCode": "contexts = []\nfor item in data[\"data\"]:\n    for para in item[\"paragraphs\"]:\n        context = para[\"context\"]\n        contexts.append(context)\n# 编码所有 context\nembeddings = encoder.encode(contexts, convert_to_numpy=True, show_progress_bar=True)\n# 用 FAISS 构建索引\ndim = embeddings.shape[1]\nindex = faiss.IndexFlatL2(dim)",
+        "detail": "scripts.prepare_embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "embeddings",
+        "kind": 5,
+        "importPath": "scripts.prepare_embeddings",
+        "description": "scripts.prepare_embeddings",
+        "peekOfCode": "embeddings = encoder.encode(contexts, convert_to_numpy=True, show_progress_bar=True)\n# 用 FAISS 构建索引\ndim = embeddings.shape[1]\nindex = faiss.IndexFlatL2(dim)\nindex.add(embeddings)\n# 保存\nfaiss.write_index(index, \"retrieval/context.index\")\nwith open(\"retrieval/contexts.json\", \"w\") as f:\n    json.dump(contexts, f)\nprint(f\"✅ 共保存 {len(contexts)} 段 context 到索引中\")",
+        "detail": "scripts.prepare_embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "dim",
+        "kind": 5,
+        "importPath": "scripts.prepare_embeddings",
+        "description": "scripts.prepare_embeddings",
+        "peekOfCode": "dim = embeddings.shape[1]\nindex = faiss.IndexFlatL2(dim)\nindex.add(embeddings)\n# 保存\nfaiss.write_index(index, \"retrieval/context.index\")\nwith open(\"retrieval/contexts.json\", \"w\") as f:\n    json.dump(contexts, f)\nprint(f\"✅ 共保存 {len(contexts)} 段 context 到索引中\")",
+        "detail": "scripts.prepare_embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "scripts.prepare_embeddings",
+        "description": "scripts.prepare_embeddings",
+        "peekOfCode": "index = faiss.IndexFlatL2(dim)\nindex.add(embeddings)\n# 保存\nfaiss.write_index(index, \"retrieval/context.index\")\nwith open(\"retrieval/contexts.json\", \"w\") as f:\n    json.dump(contexts, f)\nprint(f\"✅ 共保存 {len(contexts)} 段 context 到索引中\")",
+        "detail": "scripts.prepare_embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "qa_with_auto_context",
+        "kind": 2,
+        "importPath": "scripts.qa_retrieval",
+        "description": "scripts.qa_retrieval",
+        "peekOfCode": "def qa_with_auto_context(question, top_k=1):\n    # 编码问题\n    q_vec = encoder.encode([question], convert_to_numpy=True)\n    # 在索引中搜索\n    D, I = index.search(q_vec, top_k)\n    context = all_contexts[I[0][0]]\n    # QA 推理\n    inputs = qa_tokenizer(question, context, return_tensors=\"pt\", truncation=True, padding=True)\n    with torch.no_grad():\n        outputs = qa_model(**inputs)",
+        "detail": "scripts.qa_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "model_path",
+        "kind": 5,
+        "importPath": "scripts.qa_retrieval",
+        "description": "scripts.qa_retrieval",
+        "peekOfCode": "model_path = \"models/distilbert-qa\"\nqa_tokenizer = AutoTokenizer.from_pretrained(model_path)\nqa_model = AutoModelForQuestionAnswering.from_pretrained(model_path)\n# 检索模型\nencoder = SentenceTransformer(\"all-MiniLM-L6-v2\")\nindex = faiss.read_index(\"retrieval/context.index\")\nwith open(\"retrieval/contexts.json\", \"r\") as f:\n    all_contexts = json.load(f)\n# 主函数\ndef qa_with_auto_context(question, top_k=1):",
+        "detail": "scripts.qa_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "qa_tokenizer",
+        "kind": 5,
+        "importPath": "scripts.qa_retrieval",
+        "description": "scripts.qa_retrieval",
+        "peekOfCode": "qa_tokenizer = AutoTokenizer.from_pretrained(model_path)\nqa_model = AutoModelForQuestionAnswering.from_pretrained(model_path)\n# 检索模型\nencoder = SentenceTransformer(\"all-MiniLM-L6-v2\")\nindex = faiss.read_index(\"retrieval/context.index\")\nwith open(\"retrieval/contexts.json\", \"r\") as f:\n    all_contexts = json.load(f)\n# 主函数\ndef qa_with_auto_context(question, top_k=1):\n    # 编码问题",
+        "detail": "scripts.qa_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "qa_model",
+        "kind": 5,
+        "importPath": "scripts.qa_retrieval",
+        "description": "scripts.qa_retrieval",
+        "peekOfCode": "qa_model = AutoModelForQuestionAnswering.from_pretrained(model_path)\n# 检索模型\nencoder = SentenceTransformer(\"all-MiniLM-L6-v2\")\nindex = faiss.read_index(\"retrieval/context.index\")\nwith open(\"retrieval/contexts.json\", \"r\") as f:\n    all_contexts = json.load(f)\n# 主函数\ndef qa_with_auto_context(question, top_k=1):\n    # 编码问题\n    q_vec = encoder.encode([question], convert_to_numpy=True)",
+        "detail": "scripts.qa_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "encoder",
+        "kind": 5,
+        "importPath": "scripts.qa_retrieval",
+        "description": "scripts.qa_retrieval",
+        "peekOfCode": "encoder = SentenceTransformer(\"all-MiniLM-L6-v2\")\nindex = faiss.read_index(\"retrieval/context.index\")\nwith open(\"retrieval/contexts.json\", \"r\") as f:\n    all_contexts = json.load(f)\n# 主函数\ndef qa_with_auto_context(question, top_k=1):\n    # 编码问题\n    q_vec = encoder.encode([question], convert_to_numpy=True)\n    # 在索引中搜索\n    D, I = index.search(q_vec, top_k)",
+        "detail": "scripts.qa_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "scripts.qa_retrieval",
+        "description": "scripts.qa_retrieval",
+        "peekOfCode": "index = faiss.read_index(\"retrieval/context.index\")\nwith open(\"retrieval/contexts.json\", \"r\") as f:\n    all_contexts = json.load(f)\n# 主函数\ndef qa_with_auto_context(question, top_k=1):\n    # 编码问题\n    q_vec = encoder.encode([question], convert_to_numpy=True)\n    # 在索引中搜索\n    D, I = index.search(q_vec, top_k)\n    context = all_contexts[I[0][0]]",
+        "detail": "scripts.qa_retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "get_answer",
+        "kind": 2,
+        "importPath": "scripts.run_eval",
+        "description": "scripts.run_eval",
+        "peekOfCode": "def get_answer(example):\n    inputs = tokenizer(\n        example[\"question\"],\n        example[\"context\"],\n        return_tensors=\"pt\",\n        truncation=True,\n        padding=True\n    )\n    with torch.no_grad():\n        outputs = model(**inputs)",
+        "detail": "scripts.run_eval",
+        "documentation": {}
+    },
+    {
+        "label": "model_path",
+        "kind": 5,
+        "importPath": "scripts.run_eval",
+        "description": "scripts.run_eval",
+        "peekOfCode": "model_path = \"models/distilbert-qa\"\ntokenizer = AutoTokenizer.from_pretrained(model_path)\nmodel = AutoModelForQuestionAnswering.from_pretrained(model_path)\n# 加载原始 SQuAD 格式数据并扁平化\nraw_dataset = load_dataset(\"json\", data_files=\"data/squad/clean_train.json\", field=\"data\")[\"train\"]\nsamples = []\nfor item in raw_dataset:\n    for para in item[\"paragraphs\"]:\n        context = para[\"context\"]\n        for qa in para[\"qas\"]:",
+        "detail": "scripts.run_eval",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "scripts.run_eval",
+        "description": "scripts.run_eval",
+        "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(model_path)\nmodel = AutoModelForQuestionAnswering.from_pretrained(model_path)\n# 加载原始 SQuAD 格式数据并扁平化\nraw_dataset = load_dataset(\"json\", data_files=\"data/squad/clean_train.json\", field=\"data\")[\"train\"]\nsamples = []\nfor item in raw_dataset:\n    for para in item[\"paragraphs\"]:\n        context = para[\"context\"]\n        for qa in para[\"qas\"]:\n            question = qa[\"question\"]",
+        "detail": "scripts.run_eval",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "scripts.run_eval",
+        "description": "scripts.run_eval",
+        "peekOfCode": "model = AutoModelForQuestionAnswering.from_pretrained(model_path)\n# 加载原始 SQuAD 格式数据并扁平化\nraw_dataset = load_dataset(\"json\", data_files=\"data/squad/clean_train.json\", field=\"data\")[\"train\"]\nsamples = []\nfor item in raw_dataset:\n    for para in item[\"paragraphs\"]:\n        context = para[\"context\"]\n        for qa in para[\"qas\"]:\n            question = qa[\"question\"]\n            answer = qa[\"answers\"][0]",
+        "detail": "scripts.run_eval",
+        "documentation": {}
+    },
+    {
+        "label": "raw_dataset",
+        "kind": 5,
+        "importPath": "scripts.run_eval",
+        "description": "scripts.run_eval",
+        "peekOfCode": "raw_dataset = load_dataset(\"json\", data_files=\"data/squad/clean_train.json\", field=\"data\")[\"train\"]\nsamples = []\nfor item in raw_dataset:\n    for para in item[\"paragraphs\"]:\n        context = para[\"context\"]\n        for qa in para[\"qas\"]:\n            question = qa[\"question\"]\n            answer = qa[\"answers\"][0]\n            samples.append({\n                \"context\": context,",
+        "detail": "scripts.run_eval",
+        "documentation": {}
+    },
+    {
+        "label": "samples",
+        "kind": 5,
+        "importPath": "scripts.run_eval",
+        "description": "scripts.run_eval",
+        "peekOfCode": "samples = []\nfor item in raw_dataset:\n    for para in item[\"paragraphs\"]:\n        context = para[\"context\"]\n        for qa in para[\"qas\"]:\n            question = qa[\"question\"]\n            answer = qa[\"answers\"][0]\n            samples.append({\n                \"context\": context,\n                \"question\": question,",
+        "detail": "scripts.run_eval",
+        "documentation": {}
+    },
+    {
+        "label": "dataset",
+        "kind": 5,
+        "importPath": "scripts.run_eval",
+        "description": "scripts.run_eval",
+        "peekOfCode": "dataset = Dataset.from_list(samples).train_test_split(test_size=0.1)[\"test\"]\n# 加载评估指标\nmetric = load_metric(\"squad\")\n# 推理函数\ndef get_answer(example):\n    inputs = tokenizer(\n        example[\"question\"],\n        example[\"context\"],\n        return_tensors=\"pt\",\n        truncation=True,",
+        "detail": "scripts.run_eval",
+        "documentation": {}
+    },
+    {
+        "label": "metric",
+        "kind": 5,
+        "importPath": "scripts.run_eval",
+        "description": "scripts.run_eval",
+        "peekOfCode": "metric = load_metric(\"squad\")\n# 推理函数\ndef get_answer(example):\n    inputs = tokenizer(\n        example[\"question\"],\n        example[\"context\"],\n        return_tensors=\"pt\",\n        truncation=True,\n        padding=True\n    )",
+        "detail": "scripts.run_eval",
+        "documentation": {}
+    },
+    {
+        "label": "predictions",
+        "kind": 5,
+        "importPath": "scripts.run_eval",
+        "description": "scripts.run_eval",
+        "peekOfCode": "predictions = []\nreferences = []\nprint(\"🧪 正在评估模型...\")\nfor i, example in enumerate(tqdm(dataset)):\n    pred = get_answer(example)\n    ref = {\n        \"id\": str(i),\n        \"answers\": {\n            \"answer_start\": [example[\"answer_start\"]],\n            \"text\": [example[\"answer_text\"]]",
+        "detail": "scripts.run_eval",
+        "documentation": {}
+    },
+    {
+        "label": "references",
+        "kind": 5,
+        "importPath": "scripts.run_eval",
+        "description": "scripts.run_eval",
+        "peekOfCode": "references = []\nprint(\"🧪 正在评估模型...\")\nfor i, example in enumerate(tqdm(dataset)):\n    pred = get_answer(example)\n    ref = {\n        \"id\": str(i),\n        \"answers\": {\n            \"answer_start\": [example[\"answer_start\"]],\n            \"text\": [example[\"answer_text\"]]\n        }",
+        "detail": "scripts.run_eval",
+        "documentation": {}
+    },
+    {
+        "label": "results",
+        "kind": 5,
+        "importPath": "scripts.run_eval",
+        "description": "scripts.run_eval",
+        "peekOfCode": "results = metric.compute(predictions=predictions, references=references)\nprint(\"\\n✅ Evaluation Result:\")\nprint(f\"📌 Exact Match: {results['exact_match']:.2f}\")\nprint(f\"📌 F1 Score:    {results['f1']:.2f}\")",
+        "detail": "scripts.run_eval",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "scripts.save_file",
+        "description": "scripts.save_file",
+        "peekOfCode": "model = AutoModelForQuestionAnswering.from_pretrained(\"distilbert-base-cased-distilled-squad\")\ntokenizer = AutoTokenizer.from_pretrained(\"distilbert-base-cased-distilled-squad\")\nmodel.save_pretrained(\"models/distilbert-qa\")\ntokenizer.save_pretrained(\"models/distilbert-qa\")\nprint(\"✅ 模型和 tokenizer 已保存到 models/distilbert-qa\")",
+        "detail": "scripts.save_file",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "scripts.save_file",
+        "description": "scripts.save_file",
+        "peekOfCode": "tokenizer = AutoTokenizer.from_pretrained(\"distilbert-base-cased-distilled-squad\")\nmodel.save_pretrained(\"models/distilbert-qa\")\ntokenizer.save_pretrained(\"models/distilbert-qa\")\nprint(\"✅ 模型和 tokenizer 已保存到 models/distilbert-qa\")",
+        "detail": "scripts.save_file",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def home():\n    answer = None\n    context = \"\"\n    if request.method == \"POST\":\n        question = request.form.get(\"question\")\n        result = qa_with_auto_context(question)\n        # 原始 context\n        raw_context = result[\"context\"]\n        # 1. 去掉所有节号（任意位置的数字+空格或字母），如 \"25And\", \"3. Then\"\n        cleaned = re.sub(r\"\\b\\d+\\s*\", \"\", raw_context)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    answer = None\n    context = \"\"\n    if request.method == \"POST\":\n        question = request.form.get(\"question\")\n        result = qa_with_auto_context(question)\n        # 原始 context\n        raw_context = result[\"context\"]",
+        "detail": "app",
+        "documentation": {}
+    }
+]

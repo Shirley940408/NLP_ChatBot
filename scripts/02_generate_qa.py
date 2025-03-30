@@ -1,101 +1,100 @@
 # scripts/02_generate_qa.py
 import os
-import requests
 import json
+import spacy
+from transformers import pipeline, AutoTokenizer, AutoModelForQuestionAnswering
 
+# ===== 配置参数 =====
 INPUT_FOLDER = "data/raw"
 OUTPUT_FILE = "data/squad/train.json"
-MODEL = "tinyllama"  # This is a lightweight one is still to heavy. 5.5GiB and i have 2.8
+QUESTION_GEN_MODEL = "google/flan-t5-small"
+ANSWER_MODEL = "distilbert-base-cased-distilled-squad"
 
+# ===== 加载 SpaCy 分句器 =====
+nlp = spacy.load("en_core_web_sm")
+nlp.max_length = 10_000_000
+
+# ===== 加载问答模型（用于提取答案）=====
+print("Loading QA model...")
+qa_pipeline = pipeline("question-answering", model=ANSWER_MODEL, tokenizer=ANSWER_MODEL, device=-1)
+
+# ===== 加载提问模型 =====
+print("Loading question generation model...")
+qgen_pipeline = pipeline("text2text-generation", model=QUESTION_GEN_MODEL, tokenizer=QUESTION_GEN_MODEL, device=-1)
+
+# ===== 初始化数据结构 =====
 data = {"data": []}
 
-def generate_qa(text_chunk):
-    prompt = f"""
-    You are a divine and wise guide.
-
-    Given the Bible passage below, generate one meaningful question a human might ask based on it, 
-    and provide a short answer using exact words or phrases from the passage.
-
-    Respond in this format:
-    Question: <your question>
-    Answer: <a direct quote from the passage>
-
-    Passage:
-    {text_chunk.strip()}
-    """
-    response = requests.post(
-        "http://localhost:11434/api/generate",
-        json={"model": MODEL, "prompt": prompt, "stream": False}
-    ).json()
-    return response.get("response", "").strip()
-
-def build_squad_record(context, model_response, idx):
+# ===== 生成问题的函数（用 T5）=====
+def generate_question_t5(text_chunk):
+    prompt = f"Generate a question from the following passage:\n\n{text_chunk.strip()}"
     try:
-        # Split into lines and clean up
-        lines = [line.strip() for line in model_response.strip().split("\n") if line.strip()]
-        question = ""
-        answer = ""
-
-        for line in lines:
-            if line.lower().startswith("question:"):
-                question = line.split(":", 1)[1].strip()
-            elif line.lower().startswith("answer:"):
-                answer = line.split(":", 1)[1].strip()
-
-        if not question or not answer:
-            print(f"Incomplete QA pair. Response was:\n{model_response}")
-            return None
-
-        # Try to find answer in context (case insensitive)
-        lowered_context = context.lower()
-        lowered_answer = answer.lower()
-
-        start_idx = lowered_context.find(lowered_answer)
-        if start_idx == -1:
-            print(f"Answer not found in context. Answer: '{answer}'")
-            return None
-
-        return {
-            "context": context,
-            "qas": [{
-                "id": f"q{idx}",
-                "question": question,
-                "answers": [{"text": answer, "answer_start": start_idx}],
-                "is_impossible": False
-            }]
-        }
-
+        response = qgen_pipeline(prompt, max_new_tokens=64, do_sample=False)[0]["generated_text"]
+        return response.strip()
     except Exception as e:
-        print(f"Error building record: {e}")
-        print("Model response was:\n", model_response)
+        print("⚠️ Failed to generate question:", e)
         return None
 
+# ===== 构建 SQuAD 格式记录 =====
+def build_squad_record(context, question, answer_dict, idx):
+    answer_text = answer_dict['answer']
+    start_idx = answer_dict['start']
+    if not answer_text or start_idx == -1:
+        print("⚠️ Answer not found in context.")
+        return None
 
+    return {
+        "context": context,
+        "qas": [{
+            "id": f"q{idx}",
+            "question": question,
+            "answers": [{"text": answer_text, "answer_start": start_idx}],
+            "is_impossible": False
+        }]
+    }
+
+# ===== 主流程 =====
 idx = 0
 for fname in os.listdir(INPUT_FOLDER):
     if fname.endswith(".txt"):
         with open(os.path.join(INPUT_FOLDER, fname), "r", encoding="utf-8") as f:
             text = f.read()
-            chunks = [text[i:i+500] for i in range(0, len(text), 500)]
-
-            for chunk in chunks[:30]:
-                if len(chunk.strip()) < 100:
-                    print("Skipping empty/short chunk")
-                    continue
-
-                print("Sending to model:", chunk[:80].replace("\n", " ") + "...")
-                qa = generate_qa(chunk)
-                print("Model response:", qa)
-
-                record = build_squad_record(chunk, qa, idx)
-                if record:
-                    data["data"].append({"title": fname, "paragraphs": [record]})
-                    idx += 1
+            doc = nlp(text)
+            sentences = [sent.text.strip() for sent in doc.sents if len(sent.text.strip()) > 0]
+            chunks, current = [], ""
+            for sent in sentences:
+                if len(current) + len(sent) < 500:
+                    current += sent + " "
                 else:
-                    print("Could not build a valid QA record")
+                    if len(current.strip()) >= 100:
+                        chunks.append(current.strip())
+                    current = sent + " "
+            if len(current.strip()) >= 100:
+                chunks.append(current.strip())
 
+            # 限制每个文件最多生成 10 个问答对
+            for i, chunk in enumerate(chunks):
+                if i >= 500:
+                    break
+                print("📖 Generating question for:", chunk[:80].replace("\n", " ") + "...")
+                question = generate_question_t5(chunk)
+                if not question:
+                    continue
+                print("❓ Question:", question)
+                try:
+                    result = qa_pipeline(question=question, context=chunk)
+                    print("✅ Answer:", result["answer"])
+                    record = build_squad_record(chunk, question, result, idx)
+                    if record:
+                        data["data"].append({"title": fname, "paragraphs": [record]})
+                        idx += 1
+                    else:
+                        print("❌ Could not build a valid QA record")
+                except Exception as e:
+                    print(f"❌ Failed to extract answer: {e}")
+
+# ===== 写入输出 =====
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2)
 
-print(f"Generated {idx} QA pairs.")
-
+print(f"\n🎉 Done! Generated {idx} QA pairs. Output saved to {OUTPUT_FILE}")
